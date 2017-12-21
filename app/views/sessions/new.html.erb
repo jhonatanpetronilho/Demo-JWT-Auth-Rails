@@ -1,0 +1,14 @@
+<%= form_for :account do |f| %>
+  <p id="error"><%= flash[:error] %></p>
+  <p>
+    Email: <br>
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    Password: <br>
+    <%= f.password_field :password %>
+  </p>
+  <p>
+    <%= f.submit "Login" %>
+  </p>
+<% end %>

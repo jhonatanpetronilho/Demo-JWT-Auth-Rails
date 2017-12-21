@@ -1,0 +1,14 @@
+<%= form_for :account do |f| %>
+
+<p>
+  Email: <br>
+  <%= f.email_field :email %>
+</p>
+<p>
+  Password: <br>
+  <%= f.password_field :password %>
+</p>
+<p>
+  <%= f.submit 'Create account'%>
+</p>
+<% end %>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Auth</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="link">
+          <% if account_signed_in? %>
+          <%= link_to 'Logout', destroy_login_path, method: :delete %>
+          <% end %>
+        </div>
+      </header>
+      <%= yield %>
+    </div>
+  </body>
+</html>
