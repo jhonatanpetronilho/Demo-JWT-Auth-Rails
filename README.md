@@ -2,8 +2,8 @@
 
 ## Simple API Authenticate Rails App
 
-Simple sample API app understand JASON Web Tokens.
-This add some helpers for easy user management.
+Simple API for understand JASON Web Tokens.
+added some helpers for easy user management.
 
 ### Helper Methods:
 
