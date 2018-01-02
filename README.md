@@ -1,8 +1,8 @@
 # README
 
-## Simple Authenticate Rails App
+## Simple API Authenticate Rails App
 
-Simple sample app for my minimalist projects.
+Simple sample API app for my minimalist projects.
 This add some helpers for easy user management.
 
 ### Helper Methods:
